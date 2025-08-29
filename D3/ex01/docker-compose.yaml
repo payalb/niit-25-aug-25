@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  web:
+    image: vishwacloudlab/pythonapp:v4-var
+    ports:
+      - "8003:8000"
+  redis:
+    image: redis:alpine
